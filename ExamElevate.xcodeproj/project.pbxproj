@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B02A0792C3E6408002733BA /* Display decks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B02A0782C3E6408002733BA /* Display decks.swift */; };
+		2B0880882B29840900D3C695 /* TestSylibus.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B0880872B29840800D3C695 /* TestSylibus.json */; };
+		2B29C1852C4FBE4A00332DB9 /* Popup_question_mark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29C1842C4FBE4A00332DB9 /* Popup_question_mark.swift */; };
+		2B29C1892C50D09F00332DB9 /* DeckJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 2B29C1882C50D09F00332DB9 /* DeckJson.json */; };
+		2B29C18C2C50D31D00332DB9 /* MultichoiceViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29C18B2C50D31D00332DB9 /* MultichoiceViews.swift */; };
+		2B29C18E2C50D33200332DB9 /* MultichoiceControllerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B29C18D2C50D33200332DB9 /* MultichoiceControllerModels.swift */; };
+		2B617D142B3B413900C92FA5 /* DotPointEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B617D132B3B413900C92FA5 /* DotPointEditView.swift */; };
+		2B6641BA2C4B42BD0049770B /* ExamElevateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6641B92C4B42BD0049770B /* ExamElevateTests.swift */; };
+		2B6F94CE2BFF68B4002D6C44 /* DebugContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F94CD2BFF68B3002D6C44 /* DebugContentView.swift */; };
+		2B6F94D12BFF68E3002D6C44 /* TestSylibusDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F94D02BFF68E3002D6C44 /* TestSylibusDisplay.swift */; };
+		2B6F94D32C001C2A002D6C44 /* MakeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B6F94D22C001C2A002D6C44 /* MakeCards.swift */; };
+		2B72D3E42B873FAD00AF9A3B /* Textfield(editor).swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B72D3E32B873FAD00AF9A3B /* Textfield(editor).swift */; };
+		2B8ABEA82B3212AB0076A297 /* GetSylibus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8ABEA72B3212AB0076A297 /* GetSylibus.swift */; };
+		2BB372232C7F1B0B000241D4 /* Databasemanager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BB372222C7F1B0B000241D4 /* Databasemanager.swift */; };
+		2BCC75B02B1C2BE1000B8238 /* ExamElevateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC75AF2B1C2BE1000B8238 /* ExamElevateApp.swift */; };
+		2BCC75B22B1C2BE1000B8238 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC75B12B1C2BE1000B8238 /* ContentView.swift */; };
+		2BCC75B42B1C2BE3000B8238 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC75B32B1C2BE3000B8238 /* Assets.xcassets */; };
+		2BCC75B72B1C2BE3000B8238 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC75B62B1C2BE3000B8238 /* Preview Assets.xcassets */; };
+		2BEEB1632B232F1900126925 /* SylibusStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BEEB1622B232F1900126925 /* SylibusStruct.swift */; };
+		2BF09EDC2B3B98F8005D7755 /* FlashcardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF09EDB2B3B98F8005D7755 /* FlashcardView.swift */; };
+		2BF09EE82B3F5031005D7755 /* showdotpointforlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BF09EE72B3F5031005D7755 /* showdotpointforlist.swift */; };
+		4FBA51D72C34E76500842192 /* Listviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBA51D62C34E76500842192 /* Listviews.swift */; };
+		4FFC627A2C3E09D7007C7ADD /* MainDatabaseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC62792C3E09D7007C7ADD /* MainDatabaseLoader.swift */; };
+		4FFC627F2C3E3B26007C7ADD /* CreateACard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFC627E2C3E3B26007C7ADD /* CreateACard.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B6641BB2C4B42BD0049770B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BCC75A42B1C2BE1000B8238 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BCC75AB2B1C2BE1000B8238;
+			remoteInfo = ExamElevate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B02A0782C3E6408002733BA /* Display decks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Display decks.swift"; sourceTree = "<group>"; };
+		2B0880872B29840800D3C695 /* TestSylibus.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = TestSylibus.json; sourceTree = "<group>"; };
+		2B29C1842C4FBE4A00332DB9 /* Popup_question_mark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popup_question_mark.swift; sourceTree = "<group>"; };
+		2B29C1882C50D09F00332DB9 /* DeckJson.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = DeckJson.json; sourceTree = "<group>"; };
+		2B29C18B2C50D31D00332DB9 /* MultichoiceViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultichoiceViews.swift; sourceTree = "<group>"; };
+		2B29C18D2C50D33200332DB9 /* MultichoiceControllerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultichoiceControllerModels.swift; sourceTree = "<group>"; };
+		2B617D132B3B413900C92FA5 /* DotPointEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotPointEditView.swift; sourceTree = "<group>"; };
+		2B6641B72C4B42BD0049770B /* ExamElevateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExamElevateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B6641B92C4B42BD0049770B /* ExamElevateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamElevateTests.swift; sourceTree = "<group>"; };
+		2B6F94CD2BFF68B3002D6C44 /* DebugContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DebugContentView.swift; sourceTree = "<group>"; };
+		2B6F94D02BFF68E3002D6C44 /* TestSylibusDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestSylibusDisplay.swift; sourceTree = "<group>"; };
+		2B6F94D22C001C2A002D6C44 /* MakeCards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeCards.swift; sourceTree = "<group>"; };
+		2B72D3E32B873FAD00AF9A3B /* Textfield(editor).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Textfield(editor).swift"; sourceTree = "<group>"; };
+		2B8ABEA72B3212AB0076A297 /* GetSylibus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetSylibus.swift; sourceTree = "<group>"; };
+		2BB372222C7F1B0B000241D4 /* Databasemanager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Databasemanager.swift; sourceTree = "<group>"; };
+		2BCC75AC2B1C2BE1000B8238 /* ExamElevate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExamElevate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC75AF2B1C2BE1000B8238 /* ExamElevateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExamElevateApp.swift; sourceTree = "<group>"; };
+		2BCC75B12B1C2BE1000B8238 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2BCC75B32B1C2BE3000B8238 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2BCC75B62B1C2BE3000B8238 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2BEEB1622B232F1900126925 /* SylibusStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SylibusStruct.swift; sourceTree = "<group>"; };
+		2BF09EDB2B3B98F8005D7755 /* FlashcardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashcardView.swift; sourceTree = "<group>"; };
+		2BF09EE72B3F5031005D7755 /* showdotpointforlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = showdotpointforlist.swift; sourceTree = "<group>"; };
+		4FBA51D62C34E76500842192 /* Listviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listviews.swift; sourceTree = "<group>"; };
+		4FFC62792C3E09D7007C7ADD /* MainDatabaseLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDatabaseLoader.swift; sourceTree = "<group>"; };
+		4FFC627E2C3E3B26007C7ADD /* CreateACard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateACard.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B6641B42C4B42BD0049770B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC75A92B1C2BE1000B8238 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B29C18A2C50D30600332DB9 /* MultichoiceD */ = {
+			isa = PBXGroup;
+			children = (
+				2B29C18B2C50D31D00332DB9 /* MultichoiceViews.swift */,
+				2B29C18D2C50D33200332DB9 /* MultichoiceControllerModels.swift */,
+			);
+			path = MultichoiceD;
+			sourceTree = "<group>";
+		};
+		2B6641B82C4B42BD0049770B /* ExamElevateTests */ = {
+			isa = PBXGroup;
+			children = (
+				2B6641B92C4B42BD0049770B /* ExamElevateTests.swift */,
+			);
+			path = ExamElevateTests;
+			sourceTree = "<group>";
+		};
+		2B6F94CF2BFF68C8002D6C44 /* Debugstuff */ = {
+			isa = PBXGroup;
+			children = (
+				2B6F94CD2BFF68B3002D6C44 /* DebugContentView.swift */,
+				2B6F94D02BFF68E3002D6C44 /* TestSylibusDisplay.swift */,
+				2B6F94D22C001C2A002D6C44 /* MakeCards.swift */,
+			);
+			path = Debugstuff;
+			sourceTree = "<group>";
+		};
+		2BBC17A52B1EA02E00CDF6C7 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2BEEB1622B232F1900126925 /* SylibusStruct.swift */,
+				2B8ABEA72B3212AB0076A297 /* GetSylibus.swift */,
+				4FFC62792C3E09D7007C7ADD /* MainDatabaseLoader.swift */,
+				2BB372222C7F1B0B000241D4 /* Databasemanager.swift */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		2BBC17A62B1EA04500CDF6C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC627D2C3E3A70007C7ADD /* Add cards */,
+				2B6F94CF2BFF68C8002D6C44 /* Debugstuff */,
+				2BF09EE42B3E3F7D005D7755 /* sylibuseditor */,
+				2BF09EE32B3E3F6B005D7755 /* multi choice */,
+				2BF09EE22B3E3F5D005D7755 /* flashcard */,
+				2BCC75B12B1C2BE1000B8238 /* ContentView.swift */,
+				2B29C1842C4FBE4A00332DB9 /* Popup_question_mark.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2BBC17A72B1EA04F00CDF6C7 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B0880872B29840800D3C695 /* TestSylibus.json */,
+				2B29C1882C50D09F00332DB9 /* DeckJson.json */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		2BCC75A32B1C2BE1000B8238 = {
+			isa = PBXGroup;
+			children = (
+				2BCC75AE2B1C2BE1000B8238 /* ExamElevate */,
+				2B6641B82C4B42BD0049770B /* ExamElevateTests */,
+				2BCC75AD2B1C2BE1000B8238 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BCC75AD2B1C2BE1000B8238 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC75AC2B1C2BE1000B8238 /* ExamElevate.app */,
+				2B6641B72C4B42BD0049770B /* ExamElevateTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BCC75AE2B1C2BE1000B8238 /* ExamElevate */ = {
+			isa = PBXGroup;
+			children = (
+				2BBC17A72B1EA04F00CDF6C7 /* Files */,
+				2BBC17A62B1EA04500CDF6C7 /* Views */,
+				2BCC75AF2B1C2BE1000B8238 /* ExamElevateApp.swift */,
+				2BBC17A52B1EA02E00CDF6C7 /* Database */,
+				2BCC75B32B1C2BE3000B8238 /* Assets.xcassets */,
+				2BCC75B52B1C2BE3000B8238 /* Preview Content */,
+			);
+			path = ExamElevate;
+			sourceTree = "<group>";
+		};
+		2BCC75B52B1C2BE3000B8238 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2BCC75B62B1C2BE3000B8238 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2BF09EE22B3E3F5D005D7755 /* flashcard */ = {
+			isa = PBXGroup;
+			children = (
+				2BF09EDB2B3B98F8005D7755 /* FlashcardView.swift */,
+			);
+			path = flashcard;
+			sourceTree = "<group>";
+		};
+		2BF09EE32B3E3F6B005D7755 /* multi choice */ = {
+			isa = PBXGroup;
+			children = (
+				2B29C18A2C50D30600332DB9 /* MultichoiceD */,
+			);
+			path = "multi choice";
+			sourceTree = "<group>";
+		};
+		2BF09EE42B3E3F7D005D7755 /* sylibuseditor */ = {
+			isa = PBXGroup;
+			children = (
+				2B617D132B3B413900C92FA5 /* DotPointEditView.swift */,
+				2BF09EE72B3F5031005D7755 /* showdotpointforlist.swift */,
+				2B72D3E32B873FAD00AF9A3B /* Textfield(editor).swift */,
+				4FBA51D62C34E76500842192 /* Listviews.swift */,
+			);
+			path = sylibuseditor;
+			sourceTree = "<group>";
+		};
+		4FFC627D2C3E3A70007C7ADD /* Add cards */ = {
+			isa = PBXGroup;
+			children = (
+				4FFC627E2C3E3B26007C7ADD /* CreateACard.swift */,
+				2B02A0782C3E6408002733BA /* Display decks.swift */,
+			);
+			path = "Add cards";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B6641B62C4B42BD0049770B /* ExamElevateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B6641BD2C4B42BD0049770B /* Build configuration list for PBXNativeTarget "ExamElevateTests" */;
+			buildPhases = (
+				2B6641B32C4B42BD0049770B /* Sources */,
+				2B6641B42C4B42BD0049770B /* Frameworks */,
+				2B6641B52C4B42BD0049770B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B6641BC2C4B42BD0049770B /* PBXTargetDependency */,
+			);
+			name = ExamElevateTests;
+			productName = ExamElevateTests;
+			productReference = 2B6641B72C4B42BD0049770B /* ExamElevateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2BCC75AB2B1C2BE1000B8238 /* ExamElevate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BCC75BA2B1C2BE3000B8238 /* Build configuration list for PBXNativeTarget "ExamElevate" */;
+			buildPhases = (
+				2BCC75A82B1C2BE1000B8238 /* Sources */,
+				2BCC75A92B1C2BE1000B8238 /* Frameworks */,
+				2BCC75AA2B1C2BE1000B8238 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExamElevate;
+			productName = ExamElevate;
+			productReference = 2BCC75AC2B1C2BE1000B8238 /* ExamElevate.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BCC75A42B1C2BE1000B8238 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					2B6641B62C4B42BD0049770B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 2BCC75AB2B1C2BE1000B8238;
+					};
+					2BCC75AB2B1C2BE1000B8238 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 2BCC75A72B1C2BE1000B8238 /* Build configuration list for PBXProject "ExamElevate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BCC75A32B1C2BE1000B8238;
+			productRefGroup = 2BCC75AD2B1C2BE1000B8238 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BCC75AB2B1C2BE1000B8238 /* ExamElevate */,
+				2B6641B62C4B42BD0049770B /* ExamElevateTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B6641B52C4B42BD0049770B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC75AA2B1C2BE1000B8238 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BCC75B72B1C2BE3000B8238 /* Preview Assets.xcassets in Resources */,
+				2B0880882B29840900D3C695 /* TestSylibus.json in Resources */,
+				2B29C1892C50D09F00332DB9 /* DeckJson.json in Resources */,
+				2BCC75B42B1C2BE3000B8238 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B6641B32C4B42BD0049770B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B6641BA2C4B42BD0049770B /* ExamElevateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BCC75A82B1C2BE1000B8238 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B02A0792C3E6408002733BA /* Display decks.swift in Sources */,
+				2B6F94CE2BFF68B4002D6C44 /* DebugContentView.swift in Sources */,
+				2BB372232C7F1B0B000241D4 /* Databasemanager.swift in Sources */,
+				2B617D142B3B413900C92FA5 /* DotPointEditView.swift in Sources */,
+				4FBA51D72C34E76500842192 /* Listviews.swift in Sources */,
+				2B6F94D12BFF68E3002D6C44 /* TestSylibusDisplay.swift in Sources */,
+				2B29C1852C4FBE4A00332DB9 /* Popup_question_mark.swift in Sources */,
+				2BF09EDC2B3B98F8005D7755 /* FlashcardView.swift in Sources */,
+				4FFC627F2C3E3B26007C7ADD /* CreateACard.swift in Sources */,
+				2B29C18E2C50D33200332DB9 /* MultichoiceControllerModels.swift in Sources */,
+				2B8ABEA82B3212AB0076A297 /* GetSylibus.swift in Sources */,
+				2B29C18C2C50D31D00332DB9 /* MultichoiceViews.swift in Sources */,
+				4FFC627A2C3E09D7007C7ADD /* MainDatabaseLoader.swift in Sources */,
+				2BF09EE82B3F5031005D7755 /* showdotpointforlist.swift in Sources */,
+				2B72D3E42B873FAD00AF9A3B /* Textfield(editor).swift in Sources */,
+				2BCC75B22B1C2BE1000B8238 /* ContentView.swift in Sources */,
+				2B6F94D32C001C2A002D6C44 /* MakeCards.swift in Sources */,
+				2BEEB1632B232F1900126925 /* SylibusStruct.swift in Sources */,
+				2BCC75B02B1C2BE1000B8238 /* ExamElevateApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2B6641BC2C4B42BD0049770B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BCC75AB2B1C2BE1000B8238 /* ExamElevate */;
+			targetProxy = 2B6641BB2C4B42BD0049770B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B6641BE2C4B42BD0049770B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z7MAN6UMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-2SDDLPT.ExamElevateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamElevate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamElevate";
+			};
+			name = Debug;
+		};
+		2B6641BF2C4B42BD0049770B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8Z7MAN6UMC;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-2SDDLPT.ExamElevateTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ExamElevate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ExamElevate";
+			};
+			name = Release;
+		};
+		2BCC75B82B1C2BE3000B8238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2BCC75B92B1C2BE3000B8238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BCC75BB2B1C2BE3000B8238 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExamElevate/Preview Content\"";
+				DEVELOPMENT_TEAM = CGMP9TL2CN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-2SDDLPT.ExamElevate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BCC75BC2B1C2BE3000B8238 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ExamElevate/Preview Content\"";
+				DEVELOPMENT_TEAM = CGMP9TL2CN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "-2SDDLPT.ExamElevate";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B6641BD2C4B42BD0049770B /* Build configuration list for PBXNativeTarget "ExamElevateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B6641BE2C4B42BD0049770B /* Debug */,
+				2B6641BF2C4B42BD0049770B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC75A72B1C2BE1000B8238 /* Build configuration list for PBXProject "ExamElevate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC75B82B1C2BE3000B8238 /* Debug */,
+				2BCC75B92B1C2BE3000B8238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BCC75BA2B1C2BE3000B8238 /* Build configuration list for PBXNativeTarget "ExamElevate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BCC75BB2B1C2BE3000B8238 /* Debug */,
+				2BCC75BC2B1C2BE3000B8238 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BCC75A42B1C2BE1000B8238 /* Project object */;
+}

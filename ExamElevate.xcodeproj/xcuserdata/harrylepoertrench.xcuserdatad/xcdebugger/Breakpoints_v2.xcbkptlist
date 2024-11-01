@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "93D1E011-0988-4AE1-AEC8-52012635C107"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "56EC1789-ECAA-447D-81B0-72D62117529A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamElevate/Views/multi choice/MultichoiceD/MultichoiceControllerModels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MultiChoice_VM"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ExamElevate/Views/multi choice/MultichoiceD/MultichoiceControllerModels.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "MultiChoice_VM"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 8ca75eed5ff0b2a5"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "property wrapper backing initializer of ExamElevate.MultiChoice_VM.flashcard : Swift.Array&lt;ExamElevate.Card&gt;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 584e255030e8b48d"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.flashcard.getter : Swift.Array&lt;ExamElevate.Card&gt;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 5d867dae1ff2de42"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.flashcard.setter : Swift.Array&lt;ExamElevate.Card&gt;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 6f7223a71d7c4973"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.flashcard.modify : Swift.Array&lt;ExamElevate.Card&gt;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 881dd852b4cb9553"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.flashcard.modify : Swift.Array&lt;ExamElevate.Card&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - c6a7dfb467fd7df7"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.$flashcard.getter : Combine.Published&lt;Swift.Array&lt;ExamElevate.Card&gt;&gt;.Publisher"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 5318ad21707e6f08"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.$flashcard.setter : Combine.Published&lt;Swift.Array&lt;ExamElevate.Card&gt;&gt;.Publisher"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 9a951a8dcc6c839"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.$flashcard.modify : Combine.Published&lt;Swift.Array&lt;ExamElevate.Card&gt;&gt;.Publisher"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/harrylepoertrench/Documents/GitHub/TKSSDDMajorWork/ExamElevate/Views/multi%20choice/MultichoiceD/MultichoiceControllerModels.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15">
+               </Location>
+               <Location
+                  uuid = "02F7B7F4-3A40-4B75-8460-8A456551991F - 51c9025a6dcd949f"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ExamElevate.MultiChoice_VM.$flashcard.modify : Combine.Published&lt;Swift.Array&lt;ExamElevate.Card&gt;&gt;.Publisher with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "ExamElevate.debug.dylib"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///%3Ccompiler-generated%3E"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
